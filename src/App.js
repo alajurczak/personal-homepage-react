@@ -1,9 +1,8 @@
+import { PersonalInfo } from "./features/PersonalInfo";
 
 function App() {
   return (
-    <div>
-      Hello
-    </div>
+    <PersonalInfo />
   );
 }
 

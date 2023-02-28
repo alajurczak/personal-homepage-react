@@ -14,6 +14,7 @@ export const GlobalStyle = createGlobalStyle`
         background-color: ${({theme}) => theme.colors.mercury};
         padding: 115px 345px;
         font-size: 18px;
-        color: ${({theme}) => theme.colors.slateGray}
+        color: ${({theme}) => theme.colors.slateGray};
+        letter-spacing: 0.05em;
     }
 `;
