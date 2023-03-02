@@ -40,7 +40,7 @@ export const Information = styled.p`
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 `;
 
 export const Button = styled.button`

@@ -5,6 +5,7 @@ export const theme = {
         slateGray: "#6E7E91",
         scienceBlue: "#0366D6",
         white: "#FFFFFF",
-        dodgerBlue: "#2188FF"
+        dodgerBlue: "#2188FF",
+        whiteLilac: "#FBFBFE"
     }
 }
