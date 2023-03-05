@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { ReactComponent as message } from "./message.svg";
+
 export const Wrapper = styled.header`
     max-width: 1216px;
     display: grid;
@@ -46,10 +47,10 @@ export const Information = styled.p`
 export const Button = styled.button`
     width: 154px;
     padding: 12px 16px;
-    background-color: ${({theme}) => theme.colors.scienceBlue};
+    background-color: ${({ theme }) => theme.colors.scienceBlue};
     border: 1px solid rgba(209, 213, 218, 0.3);
     border-radius: 4px;
-    color: ${({theme}) => theme.colors.white};
+    color: ${({ theme }) => theme.colors.white};
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
