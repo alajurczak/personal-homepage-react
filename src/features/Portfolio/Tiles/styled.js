@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
     max-width: 1216px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 32px;
 `;
 
 export const Tile = styled.div`
@@ -32,6 +35,7 @@ export const LinkWrapper = styled.p`
     margin-bottom: 8px;
 `;
 export const Link = styled.a`
+    padding-left: 8px;
     text-decoration: none;
     color: ${({theme}) => theme.colors.scienceBlue};
     border-bottom: 1px solid rgb(3, 102, 214, 0.2);
