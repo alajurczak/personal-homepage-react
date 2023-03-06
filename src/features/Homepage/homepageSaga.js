@@ -4,7 +4,7 @@ import { fetchRepositories, fetchRepositoriesError, fetchRepositoriesSuccess, se
 
 function* fetchRepositoriesHandler() {
     try {
-        yield delay(3000);
+        yield delay(2000);
         const repositories = yield call(getRepositories);
         yield put(fetchRepositoriesSuccess(repositories));
         yield put(setRepositories(repositories));
