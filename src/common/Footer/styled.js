@@ -19,6 +19,12 @@ export const Email = styled.p`
     font-size: 32px;
     line-height: 39px;
     color: ${({ theme }) => theme.colors.mineShaft};
+    transition: 0.3s;
+
+    &:hover {
+        color: ${({ theme }) => theme.colors.scienceBlue};
+        cursor: pointer;
+    }
 `;
 
 export const Description = styled.p`
