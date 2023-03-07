@@ -58,6 +58,11 @@ export const Button = styled.button`
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
+    &:hover {
+        box-shadow: 2px -2px 0px #8CC2FF, -2px 2px 0px #8CC2FF, 2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;
+        cursor: pointer;
+    }
 `;
 
 export const Icon = styled(message)`
