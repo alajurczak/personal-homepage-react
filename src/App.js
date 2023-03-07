@@ -1,4 +1,4 @@
-import { PersonalInfo } from "./features/PersonalInfo";
+import { PersonalInfo } from "./common/PersonalInfo";
 import { Skills } from "./features/Skills";
 import { ToLearn } from "./features/ToLearn";
 import { Portfolio } from "./features/Portfolio";
