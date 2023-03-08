@@ -9,7 +9,7 @@ export const Wrapper = styled.header`
     align-items: center;
     margin: 0 auto;
     
-    @media (max-width: ${({theme}) => theme.breakpoints.large}) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.large}) {
         grid-template-columns: 1fr;
         grid-gap: 12px;
     }
@@ -20,6 +20,9 @@ export const Image = styled.img`
     border-radius: 100%;
     width: 50vw;
 
+    @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
+        max-width: 132px;
+    }
 `;
 
 export const Header = styled.div`
@@ -32,6 +35,12 @@ export const Caption = styled.p`
     font-weight: 700;
     font-size: 17px;
     line-height: 130%;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
+        font-size: 12px;
+        margin-top: 12px;
+        margin-bottom: 8px;
+    }
 `;
 
 export const Name = styled.h1`
@@ -41,6 +50,12 @@ export const Name = styled.h1`
     font-weight: 900;
     font-size: 38px;
     line-height: 46px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
+        font-size: 22px;
+        margin-bottom: 16px;
+        margin-top: 0;
+    }
 `;
 
 export const Information = styled.p`
