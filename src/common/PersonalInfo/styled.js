@@ -8,11 +8,18 @@ export const Wrapper = styled.header`
     grid-gap: 66px;
     align-items: center;
     margin: 0 auto;
+    
+    @media (max-width: ${({theme}) => theme.breakpoints.large}) {
+        grid-template-columns: 1fr;
+        grid-gap: 12px;
+    }
 `;
 
 export const Image = styled.img`
     max-width: 398px;
     border-radius: 100%;
+    width: 50vw;
+
 `;
 
 export const Header = styled.div`
@@ -44,7 +51,7 @@ export const Information = styled.p`
     margin-bottom: 16px;
 `;
 
-export const Button = styled.button`
+export const Button = styled.a`
     width: 154px;
     padding: 12px 16px;
     background-color: ${({ theme }) => theme.colors.scienceBlue};
@@ -63,6 +70,9 @@ export const Button = styled.button`
     &:hover {
         box-shadow: 2px -2px 0px #8CC2FF, -2px 2px 0px #8CC2FF, 2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;
         cursor: pointer;
+    }
+    &:active {
+        box-shadow: inset 0px 2px 0px rgba(20, 70, 32, 0.2);
     }
 `;
 

@@ -7,5 +7,11 @@ export const theme = {
         white: "#FFFFFF",
         dodgerBlue: "#2188FF",
         whiteLilac: "#FBFBFE"
+    },
+
+    breakpoints: {
+        small: "481px",
+    medium: "769px",
+    large: "881px"
     }
-}
+};
