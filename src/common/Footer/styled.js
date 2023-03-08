@@ -10,6 +10,10 @@ export const Caption = styled.p`
     line-height: 130%;
     padding-bottom: 12px;
     margin: 0;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
+       padding-bottom: 6px;
+    }
 `;
 
 export const Email = styled.p`
@@ -25,6 +29,12 @@ export const Email = styled.p`
         color: ${({ theme }) => theme.colors.scienceBlue};
         cursor: pointer;
     }
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
+       font-size: 18px;
+       padding: 6px 0;
+       line-height: 22px;
+    }
 `;
 
 export const Description = styled.p`
@@ -33,11 +43,20 @@ export const Description = styled.p`
     padding-bottom: 28px;
     line-height: 140%;
     color: ${({ theme }) => theme.colors.mineShaft};
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
+       font-size: 14px;
+    }
 `;
 
 export const Icons = styled.div`
     padding-top: 28px;
     padding-bottom: 94px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
+        padding-top: 16px;
+        padding-bottom: 31px;
+    }
 `;
 
 export const Link = styled.a`
