@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.js": "/personal-homepage-react/static/js/main.55b71769.js",
+    "main.js": "/personal-homepage-react/static/js/main.1fb91c0b.js",
     "static/js/787.162bc9a0.chunk.js": "/personal-homepage-react/static/js/787.162bc9a0.chunk.js",
     "static/media/personalPhoto.jpg": "/personal-homepage-react/static/media/personalPhoto.db342700433b214df91f.jpg",
     "static/media/InstagramLogo.svg": "/personal-homepage-react/static/media/InstagramLogo.ac575dc2f80befa7ba993f0a04ba6dda.svg",
+    "static/media/Sun.svg": "/personal-homepage-react/static/media/Sun.fc30c484d1ecbeb560bc16be83b864dd.svg",
     "static/media/GithubLogo.svg": "/personal-homepage-react/static/media/GithubLogo.a49c9555ab7efd63cbdbd38f559be5ce.svg",
     "static/media/Logo.svg": "/personal-homepage-react/static/media/Logo.a9062bf9626a38e8866f20e84ee3d71b.svg",
     "index.html": "/personal-homepage-react/index.html",
@@ -11,10 +12,10 @@
     "static/media/Danger.svg": "/personal-homepage-react/static/media/Danger.368eab1b87e3c2785bab7da11c278b44.svg",
     "static/media/message.svg": "/personal-homepage-react/static/media/message.5e558b62a84fe4cffa3432a34465819f.svg",
     "static/media/FacebookLogo.svg": "/personal-homepage-react/static/media/FacebookLogo.14f43e9c25d473ecd49ceaf878f965b9.svg",
-    "main.55b71769.js.map": "/personal-homepage-react/static/js/main.55b71769.js.map",
+    "main.1fb91c0b.js.map": "/personal-homepage-react/static/js/main.1fb91c0b.js.map",
     "787.162bc9a0.chunk.js.map": "/personal-homepage-react/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.55b71769.js"
+    "static/js/main.1fb91c0b.js"
   ]
 }
