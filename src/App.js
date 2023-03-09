@@ -3,7 +3,7 @@ import { Skills } from "./features/Skills";
 import { ToLearn } from "./features/ToLearn";
 import { Portfolio } from "./features/Portfolio";
 import { Footer } from "./common/Footer";
-import { ThemeSwitch } from "./common/ThemeSwitch";
+import { ThemeSwitch } from "./features/ThemeSwitch";
 
 function App() {
   return (

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Wrapper = styled.div`
     display: flex;
@@ -28,7 +28,6 @@ export const Switcher = styled.div`
     border-radius: 13px;
     display: flex;
     align-items: center;
-    
 `;
 
 export const Icon = styled.div`
@@ -38,4 +37,9 @@ export const Icon = styled.div`
     background-color: ${({ theme }) => theme.colors.slateGray};
     text-align: center;
     border-radius: 50%;
+    transition: transform 0.2s linear;
+
+    ${({ darkTheme }) => darkTheme && css`
+        transform: translate(20px);
+  `}
 `;
