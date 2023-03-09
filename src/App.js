@@ -1,20 +1,14 @@
-import { PersonalInfo } from "./common/PersonalInfo";
-import { Skills } from "./features/Skills";
-import { ToLearn } from "./features/ToLearn";
-import { Portfolio } from "./features/Portfolio";
-import { Footer } from "./common/Footer";
-import { ThemeSwitch } from "./features/ThemeSwitch";
+import { ThemeProvider } from "styled-components";
+import { GlobalStyle } from './GlobalStyle';
+import Homepage from "./features/Homepage";
+import { theme } from "./theme";
 
 function App() {
   return (
-    <>
-      <ThemeSwitch />
-      <PersonalInfo />
-      <Skills />
-      <ToLearn />
-      <Portfolio />
-      <Footer />
-    </>
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
+      <Homepage />
+    </ThemeProvider>
   );
 }
 
