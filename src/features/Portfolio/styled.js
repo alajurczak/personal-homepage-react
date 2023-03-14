@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: ${({ theme }) => theme.colors.mineShaft};
+    color: ${({ theme }) => theme.colors.secondFont};
 
     @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
         margin-bottom: 48px;

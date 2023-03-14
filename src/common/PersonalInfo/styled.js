@@ -46,7 +46,7 @@ export const Caption = styled.p`
 export const Name = styled.h1`
     margin-top: 6px;
     margin-bottom: 35px;
-    color: ${({ theme }) => theme.colors.mineShaft};
+    color: ${({ theme }) => theme.colors.secondFont};
     font-weight: 900;
     font-size: 38px;
     line-height: 46px;
@@ -69,10 +69,10 @@ export const Information = styled.p`
 export const Button = styled.a`
     width: 154px;
     padding: 12px 16px;
-    background-color: ${({ theme }) => theme.colors.scienceBlue};
-    border: 1px solid rgba(209, 213, 218, 0.3);
+    background-color: ${({ theme }) => theme.colors.blue};
+    border: 1px solid ${({ theme }) => theme.colors.tilesBorder};
     border-radius: 4px;
-    color: ${({ theme }) => theme.colors.white};
+    color: white;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;

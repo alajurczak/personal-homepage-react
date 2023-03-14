@@ -1,11 +1,10 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { Wrapper, Text, Switcher, Icon } from './styled';
-import { ReactComponent as Sun } from './Sun.svg';
-import { selectDarkTheme, toogleTheme } from "./themeSwitchSlice";
+import { Wrapper, Text, Switcher, Icon, Sun } from './styled';
+import { selectDarkMode, toogleTheme } from "./themeSwitchSlice";
 
 export const ThemeSwitch = () => {
     const dispatch = useDispatch();
-    const darkTheme = useSelector(selectDarkTheme);
+    const darkTheme = useSelector(selectDarkMode);
 
     return (
         <Wrapper onClick={() => dispatch(toogleTheme())}>

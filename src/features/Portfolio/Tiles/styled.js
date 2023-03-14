@@ -13,16 +13,16 @@ export const Wrapper = styled.div`
 
 export const Tile = styled.div`
     max-width: 592px;
-    background-color: ${({ theme }) => theme.colors.white};
+    background-color: ${({ theme }) => theme.colors.sectionsBackground};
     padding: 56px;
     padding-bottom: 48px;
-    border: 6px solid rgba(209, 213, 218, 0.3);
+    border: 6px solid ${({ theme }) => theme.colors.tilesBorder};
     border-radius: 4px;
     box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
     transition: 0.5s;
 
     &:hover {
-        border: 6px solid rgba(3, 102, 214, 0.2);
+        border: 6px solid ${({ theme }) => theme.colors.tilesBorderHover};
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
@@ -35,7 +35,7 @@ export const Title = styled.h3`
     font-weight: 700px;
     font-size: 24px;
     line-height: 30px;
-    color: ${({ theme }) => theme.colors.scienceBlue};
+    color: ${({ theme }) => theme.colors.tilesTitle};
 
     @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
         font-size: 16px;
@@ -62,8 +62,8 @@ export const LinkWrapper = styled.p`
 export const Link = styled.a`
     padding-left: 8px;
     text-decoration: none;
-    color: ${({ theme }) => theme.colors.scienceBlue};
-    border-bottom: 1px solid rgb(3, 102, 214, 0.2);
+    color: ${({ theme }) => theme.colors.blue};
+    border-bottom: 1px solid ${({ theme }) => theme.colors.tilesBorderHover};
     &:hover {
         border-bottom: 1px solid rgb(3, 102, 214, 0.8);
     }

@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
     padding: 32px;
     margin-top: 63px;
     margin-bottom: 0;
-    background-color: ${({ theme }) => theme.colors.white};
+    background-color: ${({ theme }) => theme.colors.sectionsBackground};
     box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
     border-radius: 4px;
 
@@ -16,7 +16,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.h2`
-    color: ${({ theme }) => theme.colors.mineShaft};
+    color: ${({ theme }) => theme.colors.secondFont};
     font-weight: 900;
     font-size: 30px;
     margin: 0px;
@@ -29,7 +29,7 @@ export const Title = styled.h2`
 `;
 
 export const Line = styled.hr`
-    background: rgba(209, 213, 218, 0.3);
+    background: ${({ theme }) => theme.colors.tilesBorder};
     margin-top: 16px;
     margin-bottom: 32px;
     height: 1px;
@@ -42,7 +42,7 @@ export const Line = styled.hr`
 `;
 
 export const List = styled.ul`
-    color: ${({ theme }) => theme.colors.slateGray};
+    color: ${({ theme }) => theme.colors.mainFont};
     margin: 0;
     padding: 0;
     display: grid;
@@ -70,7 +70,7 @@ export const Item = styled.li`
         display: inline-block;
         width: 9px;
         height: 9px;
-        background-color: ${({ theme }) => theme.colors.scienceBlue};
+        background-color: ${({ theme }) => theme.colors.blue};
         border-radius: 50%;
         margin-right: 16px;
     }

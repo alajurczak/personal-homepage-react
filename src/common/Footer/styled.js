@@ -22,11 +22,11 @@ export const Email = styled.p`
     font-weight: 900;
     font-size: 32px;
     line-height: 39px;
-    color: ${({ theme }) => theme.colors.mineShaft};
+    color: ${({ theme }) => theme.colors.secondFont};
     transition: 0.3s;
 
     &:hover {
-        color: ${({ theme }) => theme.colors.scienceBlue};
+        color: ${({ theme }) => theme.colors.blue};
         cursor: pointer;
     }
 
@@ -42,7 +42,7 @@ export const Description = styled.p`
     padding-top: 12px;
     padding-bottom: 28px;
     line-height: 140%;
-    color: ${({ theme }) => theme.colors.mineShaft};
+    color: ${({ theme }) => theme.colors.secondFont};
 
     @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
        font-size: 14px;
