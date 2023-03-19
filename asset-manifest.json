@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/personal-homepage-react/static/js/main.1cfe3ec9.js",
+    "main.js": "/personal-homepage-react/static/js/main.99e8c121.js",
     "static/js/787.162bc9a0.chunk.js": "/personal-homepage-react/static/js/787.162bc9a0.chunk.js",
     "static/media/personalPhoto.jpg": "/personal-homepage-react/static/media/personalPhoto.db342700433b214df91f.jpg",
     "static/media/InstagramLogo.svg": "/personal-homepage-react/static/media/InstagramLogo.34e87cd7ec2ec73a31d236ef32074947.svg",
@@ -12,10 +12,10 @@
     "static/media/LinkedinLogo.svg": "/personal-homepage-react/static/media/LinkedinLogo.1bf7280c3bd9c4ab60aff143eb34f5c5.svg",
     "static/media/message.svg": "/personal-homepage-react/static/media/message.5e558b62a84fe4cffa3432a34465819f.svg",
     "static/media/FacebookLogo.svg": "/personal-homepage-react/static/media/FacebookLogo.256a8e27f85ff909c10483712152c537.svg",
-    "main.1cfe3ec9.js.map": "/personal-homepage-react/static/js/main.1cfe3ec9.js.map",
+    "main.99e8c121.js.map": "/personal-homepage-react/static/js/main.99e8c121.js.map",
     "787.162bc9a0.chunk.js.map": "/personal-homepage-react/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.1cfe3ec9.js"
+    "static/js/main.99e8c121.js"
   ]
 }
