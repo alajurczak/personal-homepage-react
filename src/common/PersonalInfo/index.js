@@ -8,7 +8,7 @@ export const PersonalInfo = () => (
             <Caption>THIS IS</Caption>
             <Name>Alicja Jurczak</Name>
             <Information>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut dolor nibh. Nullam finibus enim dui, sit amet sollicitudin ex faucibus quis.
+                Hi! I'm a beginner Frontend Developer who is passionate about new technologies and React. I'm an ambitious and fast learning person. In my work, I would like to use my knowledge and creativity to create aesthetic projects.
             </Information>
             <Button>
                 {<Icon />}
