@@ -61,4 +61,10 @@ export const Icons = styled.div`
 
 export const Link = styled.a`
     padding-right: 24px;
+    color: ${({theme}) => theme.colors.secondFont};
+    transition: 0.5s;
+    
+    &:hover {
+        color: ${({theme}) => theme.colors.blue};
+    }
 `;
