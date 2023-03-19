@@ -1,8 +1,8 @@
 export const goals = [
-    {id: 1, content: "Lorem ipsum dolor sit amet"},
-    {id: 2, content: "Lorem ipsum dolor sit amet"},
-    {id: 3, content: "Lorem ipsum dolor sit amet"},
-    {id: 4, content: "Lorem ipsum dolor sit amet"},
-    {id: 5, content: "Lorem ipsum dolor sit amet"},
-    {id: 6, content: "Lorem ipsum dolor sit amet"},
+    {id: 1, content: "React Context"},
+    {id: 2, content: "Node.js"},
+    {id: 3, content: "TypeScript"},
+    {id: 4, content: "Unit testing"},
+    {id: 5, content: "JS classes"},
+    {id: 6, content: "Figma"},
 ]
