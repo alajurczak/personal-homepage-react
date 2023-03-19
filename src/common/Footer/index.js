@@ -9,7 +9,7 @@ export const Footer = () => (
         <Caption>LET'S TALK</Caption>
         <Email>ala.jurczak@gmail.com</Email>
         <Description>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            I'm always open to new projects and ideas.  If you are looking for a committed team member with great desire to continuously expand knowledge and a passion for teamwork, feel free to contact me.
         </Description>
         <Icons>
             <Link href="https://github.com/alajurczak" rel="norefferer noopener">
