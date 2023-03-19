@@ -14,6 +14,7 @@ export const Title = styled.h3`
     font-size: 24px;
     line-height: 30px;
     color: ${({ theme }) => theme.colors.secondFont};
+    text-align: center;
 `;
 
 export const Description = styled.p`

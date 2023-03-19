@@ -3,6 +3,7 @@ import styled, { keyframes } from "styled-components";
 export const Description = styled.p`
     line-height: 140%;
     margin-bottom: 48px;
+    text-align: center;
 `;
 
 const rotation = keyframes`
