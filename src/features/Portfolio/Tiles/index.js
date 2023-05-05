@@ -10,7 +10,7 @@ export const Tiles = () => {
             {repositories.map(repo => (
                 <Tile key={repo.id}>
                     <Title>{repo.name}</Title>
-                    <Descripion>{repo.descripion}</Descripion>
+                    <Descripion>{repo.description}</Descripion>
 
                     <LinkWrapper>
                         Demo:
