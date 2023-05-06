@@ -1,6 +1,29 @@
 # Personal homepage
 
-## DEMO: [Personal homepage](https://alajurczak.github.io/personal-homepage-react/)
+## The lastest version here: [Personal homepage](https://alajurczak.github.io/personal-homepage-react/)
+
+## Introduction
+
+This site was created as a virtual equivalent of CV. You can find here information about me, such as:
+
+- my skills 🛠
+- my recent projects 👩🏻‍💻
+- my strengths 💪🏻
+- what I want to learn in the near future 🚀
+- how to reach me 📧
+
+![Personal Homepage](public/gif//homepage-gif.gif)
+
+This project includes recent projects that I have made and others that I am still working on. They were added using the API. It also includes error handling and loading page.
+
+![Loading Page](public/gif/homepage-loading-gif.gif)
+
+## Technologies
+
+[![Technologies](https://skillicons.dev/icons?i=react,redux,js,html,css,styledcomponents,vscode,git,github,)](https://skillicons.dev)
+
+## Getting Started with Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
