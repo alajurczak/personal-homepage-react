@@ -20,7 +20,7 @@ export const Tile = styled.div`
   border-radius: 4px;
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02),
     0px 16px 58px rgba(9, 10, 51, 0.03);
-  transition: 0.5s;
+  transition: border 0.5s;
 
   &:hover {
     border: 6px solid ${({ theme }) => theme.colors.tilesBorderHover};

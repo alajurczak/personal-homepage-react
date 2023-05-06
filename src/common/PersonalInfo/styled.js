@@ -64,6 +64,10 @@ export const Information = styled.p`
   font-size: 20px;
   line-height: 140%;
   margin-bottom: 16px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
+    font-size: 17px;
+  }
 `;
 
 export const Button = styled.a`
@@ -80,7 +84,7 @@ export const Button = styled.a`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  transition: 0.5s;
+  transition: box-shadow 0.5s;
   text-decoration: none;
 
   &:hover {
@@ -90,6 +94,11 @@ export const Button = styled.a`
   }
   &:active {
     box-shadow: inset 0px 2px 0px rgba(20, 70, 32, 0.2);
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
+    font-size: 16px;
+    width: 140px;
   }
 `;
 

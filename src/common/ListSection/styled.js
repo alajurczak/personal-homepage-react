@@ -64,7 +64,6 @@ export const Item = styled.li`
   margin: 0;
   font-size: 18px;
   padding-right: 16px;
-
   list-style: none;
   &:before {
     content: " ";
@@ -74,5 +73,8 @@ export const Item = styled.li`
     background-color: ${({ theme }) => theme.colors.blue};
     border-radius: 50%;
     margin-right: 16px;
+  }
+  @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
+    font-size: 14px;
   }
 `;
